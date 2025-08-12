@@ -27,9 +27,9 @@ int main(){
       
     }for(i=0;i<sz;i++){
         if(array[i]==largest){
-            break;
+            cout<<"position"<<i<<endl;
         }
-    }cout<<i;
+    }
     
     cout<<smallest<<endl;
     cout<<largest<<endl;
